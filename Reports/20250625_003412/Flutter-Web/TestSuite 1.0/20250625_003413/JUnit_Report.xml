@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite 1.0" time="9.127" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuite 1.0" tests="1" failures="0" errors="0" time="9.127" skipped="0" timestamp="25-06-2025T00:34:16" hostname="uixted - localhost" id="Test Suites/Flutter-Web/TestSuite 1.0">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/uixted/Desktop/Git/Attendance_web/Reports/20250625_003412/Flutter-Web/TestSuite 1.0/20250625_003413"/>
+         <property name="logFiles" value="/Users/uixted/Desktop/Git/Attendance_web/Reports/20250625_003412/Flutter-Web/TestSuite 1.0/20250625_003413/execution0.log, /Users/uixted/Desktop/Git/Attendance_web/Reports/20250625_003412/Flutter-Web/TestSuite 1.0/20250625_003413/console0.log"/>
+         <property name="attachments" value="/Users/uixted/Desktop/Git/Attendance_web/Reports/20250625_003412/Flutter-Web/TestSuite 1.0/20250625_003413/1750782865000.png"/>
+         <property name="hostName" value="uixted - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.2.2.0"/>
+         <property name="browser" value="Chrome 137.0.7151.120"/>
+         <property name="userFullName" value="Noraizam"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="10f031df64f14693c6d3731e4732c272"/>
+         <property name="projectName" value="Attendance_web"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Flutter-Web/TestCase 1.0" time="8.896" classname="Test Cases/Flutter-Web/TestCase 1.0" status="PASSED">
+         <system-out><![CDATA[25-06-2025T00:34:16 - [TEST_CASE][PASSED] - Test Cases/Flutter-Web/TestCase 1.0: Test Cases/Flutter-Web/TestCase 1.0
+
+25-06-2025T00:34:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-06-2025T00:34:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-06-2025T00:34:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-06-2025T00:34:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-06-2025T00:34:20 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:60322/"): Navigate to 'http://localhost:60322/' successfully
+
+25-06-2025T00:34:20 - [MESSAGE][PASSED] - Navigate to 'http://localhost:60322/' successfully
+
+25-06-2025T00:34:20 - [TEST_STEP][PASSED] - setText(findTestObject("enter_studentname"), "safwan hairom"): Text 'safwan hairom' is set on object 'Object Repository/enter_studentname'
+
+25-06-2025T00:34:23 - [MESSAGE][PASSED] - Text 'safwan hairom' is set on object 'Object Repository/enter_studentname'
+
+25-06-2025T00:34:23 - [TEST_STEP][PASSED] - click(findTestObject("add_student")): Object: 'Object Repository/add_student' is clicked on
+
+25-06-2025T00:34:24 - [MESSAGE][PASSED] - Object: 'Object Repository/add_student' is clicked on
+
+25-06-2025T00:34:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("verify_addedstudent"), 0): Object 'Object Repository/verify_addedstudent' is present
+
+25-06-2025T00:34:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+25-06-2025T00:34:24 - [MESSAGE][PASSED] - Object 'Object Repository/verify_addedstudent' is present
+
+25-06-2025T00:34:24 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+25-06-2025T00:34:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/uixted/Desktop/Git/Attendance_web/Reports/20250625_003412/Flutter-Web/TestSuite 1.0/20250625_003413/1750782865000.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[25-06-2025T00:34:16 - [TEST_SUITE][PASSED] - TestSuite 1.0: Test Cases/Flutter-Web/TestCase 1.0]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

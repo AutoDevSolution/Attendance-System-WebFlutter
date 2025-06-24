@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite 1.0,Chrome 137.0.7151.120,,,25-06-2025 00:34:16,25-06-2025 00:34:25,9.294s,PASSED
+,,,,,,,
+Test Cases/Flutter-Web/TestCase 1.0,Chrome 137.0.7151.120,initial test case,,25-06-2025 00:34:16,25-06-2025 00:34:25,8.896s,PASSED
+"openBrowser("""")",Chrome 137.0.7151.120,,,25-06-2025 00:34:16,25-06-2025 00:34:20,3.930s,PASSED
+"navigateToUrl(""http://localhost:60322/"")",Chrome 137.0.7151.120,,,25-06-2025 00:34:20,25-06-2025 00:34:20,0.052s,PASSED
+"setText(findTestObject(""enter_studentname""), ""safwan hairom"")",Chrome 137.0.7151.120,,,25-06-2025 00:34:20,25-06-2025 00:34:23,3.158s,PASSED
+"click(findTestObject(""add_student""))",Chrome 137.0.7151.120,,,25-06-2025 00:34:23,25-06-2025 00:34:24,0.406s,PASSED
+"verifyElementPresent(findTestObject(""verify_addedstudent""), 0)",Chrome 137.0.7151.120,,,25-06-2025 00:34:24,25-06-2025 00:34:24,0.474s,PASSED
+takeScreenshot(),Chrome 137.0.7151.120,,,25-06-2025 00:34:24,25-06-2025 00:34:25,0.666s,PASSED
