@@ -6,7 +6,7 @@ import 'package:flutter/rendering.dart';
 
 void main() {
   runApp(const AttendanceApp());
-  SemanticsBinding.instance.ensureSemantics();
+  // SemanticsBinding.instance.ensureSemantics(); 
 }
 
 class AttendanceApp extends StatelessWidget {
